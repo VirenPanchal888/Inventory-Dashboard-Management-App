@@ -56,4 +56,3 @@
 
 ---
 
-This **Markdown** format will render the content with two parts in a clean, readable way in GitHub, using a **table-based layout** to create a clear, side-by-side view of the problem and the solution, as well as the app description and features.
