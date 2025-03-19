@@ -1,71 +1,59 @@
-*Why We Started Building the Dessert Bowl Management Application*
+# Dessert Bowl Management Application
 
-Our friend, the owner of a dessert bowl cart in Kolhapur, facing several challenges when managing his orders. As demand increasing, he began taking pre-orders manually over the phone intead serving on cart, but the process of noting down customer names, mobile numbers, and order details in a physical notebook became time-consuming and exhausting. With limited manpower and a growing number of customers, he had to restrict the number of orders to just 50-60 per day, which sometimes led to frustrated customers being turned away when they couldn’t place an order in time.
+## **Why We Started Building the Dessert Bowl Management Application**
 
-Additionally, since orders were only accepted between 5:00 PM and 6:30 PM, many customers were unaware of this time frame and often showed up only to find out that no orders were being accepted ay the moment. This caused unnecessary confusion, disatisfaction and disappointment.
+| **Problem**                                                                                                                                                           | **Solution**                                                                                                                                                                     |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Our friend, the owner of a dessert bowl cart in Kolhapur, **faced several challenges** when managing his orders. As demand increased, he began taking pre-orders manually over the phone instead of serving directly at the cart. | To address these challenges and provide a better experience for both the owner and customers, we decided to build an application that would automate the order process, calculate preparation times, and notify customers when their orders were ready for pickup. |
+| The process of noting down customer names, mobile numbers, and order details in a physical notebook became **time-consuming** and **exhausting**.                     | The app would **simplify** and **automate** these tasks, reducing manual effort, and **increasing** order capacity without compromising quality.                                      |
+| With limited manpower and a growing number of customers, he had to restrict the number of orders to just **50-60 per day**, which led to **frustrated customers** being turned away when they couldn’t place an order in time.  | By automating order tracking and providing real-time updates, the app would help **increase** the order volume while keeping the system **organized**. |
+| Since orders were only accepted between **5:00 PM and 6:30 PM**, many customers were unaware of this time frame and often showed up to find that no orders were being accepted at the moment. | The app would **inform** customers of the ordering window, preventing confusion and allowing them to place their orders in advance, streamlining the process. |
+| This caused unnecessary **confusion**, **dissatisfaction**, and **disappointment**.                                                                                      | With the app, the customer experience would be **improved** by allowing easy order placement and tracking, leading to **higher satisfaction**. |
 
-To address these challenges and provide a better experience for both the owner and customers, we decided to build an application. The goal was to automate and streamline the entire order process, from taking customer details to calculating preparation times, and notifying customers when their orders were ready. This application would help manage orders in real-time, reduce manual effort, and ensure that the owner could handle more orders while keeping things organized.
+---
 
-*We wanted to create a solution that would:*
+## **App Description and Features**
 
-Simplify the process of managing orders for the owner.
-Automatically calculate order preparation and pickup times.
-Notify customers instantly when their orders are ready for pickup.
-Provide an easy-to-use dashboard where the owner could track orders and make adjustments quickly.
-Improve customer satisfaction by ensuring everyone knows the order status and pickup time, reducing confusion.
-By building this app, I aimed to improve efficiency, allow the owner to manage a higher volume of orders, and create a more seamless and enjoyable experience for customers.
+| **Feature**                                                                                                                                                             | **Explanation**                                                                                                                                                               |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Order Dashboard**                                                                                                                                                      | The **Orders Dashboard** is the central screen where the owner can view all customer orders, sort them by status (**Pending**, **In Progress**, **Ready**), and access quick actions like editing or updating the order status.  |
+| **Order Management**                                                                                                                                                     | The owner can **edit** orders with real-time updates, **change order status** to “In Progress” or “Ready”, and send notifications to customers when their orders are ready for pickup. |
+| **Preparation Time Control**                                                                                                                                             | The app allows the owner to set **preparation time per bowl** (e.g., 2 minutes) and **calculates** the total queue time based on pending orders, ensuring accurate pickup time estimates. |
+| **Integration for Communication**                                                                                                                                       | The owner can **call customers** directly through the app by clicking on their mobile number, streamlining communication. Integration with phone apps or Truecaller for convenience. |
+| **Search & Filter Functionality**                                                                                                                                       | A **search bar** allows the owner to quickly find orders by customer name or phone number. Orders can be **filtered** by status, e.g., Pending, In Progress, Ready. |
+| **Seamless User Experience**                                                                                                                                             | The app is designed with a **user-friendly interface**, ensuring quick navigation and management. The UI is optimized for **mobile devices**, enabling management on-the-go. |
 
+---
 
-**Prototype**
-**App Description: Dessert Bowl Owner Dashoard Management**
-The Dessert Bowl Management app is designed to help the owner of a street cart managing customer orders, calculating preparation times, and communicating efficiently with customers. 
-The app simplifies the process of handling orders, reducing manual errors and improving customer satisfaction.
+## **Functionality Summary**
 
-**Key Features of the App:**
-Order Dashboard:
+| **Functionality**                    | **Description**                                                                                                                                                         |
+|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Managing Orders**                 | **Add, update**, and **track** customer orders with ease.                                                                                                                |
+| **Receiving Real-Time Updates**     | **Instantly update** order statuses and notify customers when their orders are ready.                                                                                   |
+| **Efficient Communication**         | **Call customers** directly from the app with a single tap.                                                                                                             |
+| **Calculating Time**                | **Automatically calculate** pickup times based on order queue and preparation time.                                                                                    |
+| **Providing a User-Friendly Interface** | Seamless experience that makes managing orders **quick and easy** for the owner.                                                                 |
 
-The Orders Dashboard is the central screen where the owner can view all customer orders, sorting them based on their current status (Pending, In Progress, Ready) and accessing quick actions like editing and updating the order status.
-Each order displays important details, such as:
-Customer Name
-Mobile Number
-Order Type (e.g., Mango, Caramel....)
-Order Time
-Pickup Time
-Order Status (Pending, In Progress, Ready for Pickup)
-Order Management:
+---
 
-The owner can edit each order with real-time updates on preparation time.
-The owner is able to change the order status to "In Progress" or "Ready" directly from the order details page.
-The "Set Ready" option can be triggered when the bowl is ready for pickup, and customers are receiving notifications about when to pick up their orders.
-Preparation Time Control:
+## **Tech Features**
 
-Preparation Time per Bowl is displayed, and the owner can edit this value (e.g., 2 minutes per bowl).
-The app calculates the total queue time based on the number of pending orders, ensuring that the owner knows the estimated pickup time for each order.
-The Total Queue Time is dynamically updated based on the current number of orders in the queue.
-Integration for Communication:
+| **Feature**                         | **Description**                                                                                                                                                         |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Managing Orders in Real-Time**    | Gives the owner **visibility** over the order queue and preparation times, ensuring better organization.                                                                |
+| **Mobile & Web Compatibility**      | The app is optimized for **mobile devices**, ensuring ease of use while on the go.                                                                                      |
+| **Integrating Communication Features** | **Streamlines communication** with customers directly from the dashboard.                                                                                                |
 
-The app also allows the owner to call the customer directly from the app interface by clicking on the customer’s mobile number.
-The customer’s number can be opened in either the phone app or other dialing apps like Truecaller for easier access, helping the owner notify the customer directly.
-Search & Filter Functionality:
+---
 
-A search bar is available for the owner to search for specific orders quickly by customer name or phone number.
-Orders can be filtered by status (e.g., all Pending orders, In Progress, or Ready orders).
-Seamless User Experience:
+## **Conclusion**
 
-The app interface is designed to be intuitive, clean, and easy to use, allowing the owner to quickly manage multiple orders with minimal effort.
-The UI is responsive, optimized for mobile devices, and ensures the owner can manage the cart efficiently whether they are on-site or remotely checking the app.
+| **Goal**                            | **Outcome**                                                                                                                                                             |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Addressing challenges**           | The app provides a **practical solution** to managing high-order volumes for small businesses like dessert carts. The **automation** improves efficiency and customer experience. |
+| **Increasing efficiency**           | The app **automates** key tasks, allowing the owner to handle more orders while keeping the process smooth and organized.                                               |
 
-**Functionality Summary:**
-Managing Orders: Add, update, and track customer orders.
-Receiving Real-Time Updates: Instantly update order statuses and notify customers.
-Efficient Communication: Call customers directly from the app.
-Calculating Time: Automatically calculate pickup times based on the queue.
-Providing a User-Friendly Interface: Seamless experience for the cart owner.
+---
 
-**Tech Features:**
-Managing Orders in Real-Time: Ensures the owner has visibility over the current order queue and preparation times.
-Being Mobile & Web-Compatible: The app is optimized for mobile use, ensuring ease of use while on the go.
-Integrating Communication Features: Simple and efficient ways to communicate with customers directly from the dashboard.
-
-*This app provides a practical solution to the challenges of managing high-order volumes for small businesses like dessert carts. 
-The app is automating key tasks, ensuring smooth operation, and improving customer experience through better communication and efficient order management.*
+This **Markdown** format will render the content with two parts in a clean, readable way in GitHub, using a **table-based layout** to create a clear, side-by-side view of the problem and the solution, as well as the app description and features.
